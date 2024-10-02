@@ -188,9 +188,9 @@
             // pictureProduto
             // 
             pictureProduto.Image = (Image)resources.GetObject("pictureProduto.Image");
-            pictureProduto.Location = new Point(44, 83);
+            pictureProduto.Location = new Point(44, 85);
             pictureProduto.Name = "pictureProduto";
-            pictureProduto.Size = new Size(170, 190);
+            pictureProduto.Size = new Size(170, 202);
             pictureProduto.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureProduto.TabIndex = 14;
             pictureProduto.TabStop = false;
@@ -214,7 +214,7 @@
             btnAddImg.BackColor = SystemColors.ButtonFace;
             btnAddImg.Font = new Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnAddImg.ForeColor = SystemColors.ControlText;
-            btnAddImg.Location = new Point(62, 284);
+            btnAddImg.Location = new Point(61, 302);
             btnAddImg.Name = "btnAddImg";
             btnAddImg.Size = new Size(135, 41);
             btnAddImg.TabIndex = 16;
@@ -226,9 +226,9 @@
             // 
             dataGridInfoProduto.BackgroundColor = SystemColors.Info;
             dataGridInfoProduto.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridInfoProduto.Location = new Point(73, 383);
+            dataGridInfoProduto.Location = new Point(44, 383);
             dataGridInfoProduto.Name = "dataGridInfoProduto";
-            dataGridInfoProduto.Size = new Size(645, 133);
+            dataGridInfoProduto.Size = new Size(641, 133);
             dataGridInfoProduto.TabIndex = 17;
             dataGridInfoProduto.CellContentClick += dataGridInfoProduto_CellContentClick;
             // 
